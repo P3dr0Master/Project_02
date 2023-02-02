@@ -22,6 +22,7 @@ ul {
   padding: 0;
   display: flex;
   gap: 48px;
+  cursor: pointer;
 }
 
 a {
@@ -37,6 +38,12 @@ h1,ul {
   font-family: 'Mulish', sans-serif;
 }
 
+main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 h1 {
   font-size: 49px;
   line-height: 56px;
@@ -50,20 +57,37 @@ h1 span {
   color: #89C5CC;
 }
 
-p {
+section p {
   font-size: 14px;
   line-height: 28px;
   color: #7D7987;
+  margin: 50px 0;
 }
 
 button {
+  color: white;
   text-transform: uppercase;
   font-family: 'Open Sans', sans-serif;
+  background: #69B99D;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 14px 32px 15px;
+  gap: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button:hover {
+  background: #489a7d;
 }
 
 footer {
   font-size: 14px;
   line-height: 28px;
+  text-align: center;
+  margin-top: 80px;
 }
 
 footer a {
